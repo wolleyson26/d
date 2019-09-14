@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "loyalty program server setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedabdulai/text_message_service.git"
+  },
+  "author": "Nelson Anane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohammedabdulai/text_message_service/issues"
+  },
+  "homepage": "https://github.com/mohammedabdulai/text_message_service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.0",
+    "nodemon": "^1.19.2",
+    "react-router-dom": "^5.0.1",
+    "twilio": "^3.34.0"
+  }
+}
